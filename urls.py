@@ -3,9 +3,8 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = patterns('',
     url(r'^$', 'common.views.base'),
-    url(r'^user/login/', 'account.views.login'),
-    url(r'^logout/?$',  'django.contrib.auth.views.logout_then_login'),
-    url(r'^user/register/$',  'account.views.register'),
+    url(r'^facebook/login$', 'facebook.views.login'),
+    url(r'^facebook/authentication_callback$', 'facebook.views.authentication_callback'),
 )
 
 urlpatterns += staticfiles_urlpatterns()
