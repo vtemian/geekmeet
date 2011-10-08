@@ -45,6 +45,7 @@ USE_I18N = True
 # If you set this to False, Django will not format dates, numbers and
 # calendars according to the current locale
 USE_L10N = True
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 MEDIA_ROOT = os.path.abspath(os.path.join(PROJECT_ROOT, 'site_media', 'media'))
 MEDIA_URL = '/site_media/media/'
