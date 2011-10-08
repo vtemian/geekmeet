@@ -108,6 +108,9 @@ FACEBOOK_SCOPE = 'email,publish_stream'
 
 TEMPLATE_DIRS = ('/home/wok/projects/geekmeet/templates',)
 
+LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = '/'
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
