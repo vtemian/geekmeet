@@ -10,12 +10,12 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-
+PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': os.getcwd() + '/geekmeet.sql',                      # Or path to database file if using sqlite3.
+        'NAME': PROJECT_ROOT + '/geekmeet.sql',                      # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -45,7 +45,7 @@ USE_I18N = True
 # If you set this to False, Django will not format dates, numbers and
 # calendars according to the current locale
 USE_L10N = True
-PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
+
 
 MEDIA_ROOT = os.path.abspath(os.path.join(PROJECT_ROOT, 'site_media', 'media'))
 MEDIA_URL = '/site_media/media/'
