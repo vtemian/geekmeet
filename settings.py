@@ -103,7 +103,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'geekmeet.urls'
+ROOT_URLCONF = 'urls'
 
 AUTHENTICATION_BACKENDS = ('facebook.backend.FacebookBackend', 'django.contrib.auth.backends.ModelBackend')
 AUTH_PROFILE_MODULE = 'facebook.FacebookProfile'
