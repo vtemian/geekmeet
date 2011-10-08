@@ -26,16 +26,16 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="404" selection-end="404" vertical-scroll-proportion="-9.782609">
+            <state line="8" column="7" selection-start="296" selection-end="296" vertical-scroll-proportion="-5.2173915">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.21613833">
+            <state line="5" column="16" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/account/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+            <state line="8" column="14" selection-start="460" selection-end="460" vertical-scroll-proportion="0.17291066">
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
         <option value="$PROJECT_DIR$/account/static/js/register.js" />
         <option value="$PROJECT_DIR$/common/templates/base.html" />
         <option value="$PROJECT_DIR$/settings.py" />
-        <option value="$PROJECT_DIR$/account/templates/login.html" />
         <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/account/templates/login.html" />
       </list>
     </option>
   </component>
@@ -606,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="404" selection-end="404" vertical-scroll-proportion="-9.782609">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="0" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.0">
@@ -620,16 +613,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/login.html">
+    <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+        <state line="5" column="16" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urls.py">
+    <entry file="file://$PROJECT_DIR$/common/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="382" selection-end="382" vertical-scroll-proportion="0.21613833">
+        <state line="8" column="7" selection-start="296" selection-end="296" vertical-scroll-proportion="-5.2173915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="460" selection-end="460" vertical-scroll-proportion="0.17291066">
           <folding />
         </state>
       </provider>
